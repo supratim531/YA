@@ -5,7 +5,7 @@ function Hero() {
   return (
     <div id="hero" className="bg-[#0c1d27]">
       <div className="py-20 flex flex-col gap-y-20 mx-auto container">
-        <div className="lg:mx-10 flex flex-col-reverse lg:flex-row justify-between gap-y-5 lg:gap-y-4">
+        <div className="lg:mx-10 flex flex-col lg:flex-row justify-between gap-y-5 lg:gap-y-4">
           <div className="font-[Poppins] w-full flex flex-col justify-center">
             <div className="space-y-1.5">
               <div className="uppercase font-medium text-white">salesforce implementation</div>
