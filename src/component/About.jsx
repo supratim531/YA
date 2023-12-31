@@ -3,20 +3,20 @@ import CardSwiper from './swiper/CardSwiper';
 import Testimonial from './Testimonial';
 
 import utsav from "../assets/utsav.jpeg";
-import dipayan from "../assets/dipayan.jpg";
+import dipayan from "../assets/dipu.jpg";
 import mriganka from "../assets/mriganka.jpg";
 
 function About() {
   const [teams, setTeams] = useState([
     {
-      name: "Dipayan Banik",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quidem ratione esse cupiditate placeat repellat.",
-      image: dipayan
-    },
-    {
       name: "Mriganka Paul",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quidem ratione esse cupiditate placeat repellat.",
       image: mriganka
+    },
+    {
+      name: "Dipayan Banik",
+      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quidem ratione esse cupiditate placeat repellat.",
+      image: dipayan
     },
     {
       name: "Utsav Chatterjee",
