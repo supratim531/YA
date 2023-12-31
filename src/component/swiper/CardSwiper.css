@@ -1,12 +1,12 @@
 .swiper {
-  width: 240px;
-  height: 320px;
+  width: 180px;
+  height: 260px;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 360px) {
   .swiper {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
+    width: 240px;
+    height: 320px;
   }
 }
 

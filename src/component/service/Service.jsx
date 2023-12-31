@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import logo from "../../assets/logo.png"
+import serviceCardLogo from "../../assets/logo.png"
+import serviceLogo from "../../assets/service-logo.png"
 import Designing from './Designing';
 import Development from './Development';
 import Marketing from './Marketing';
@@ -24,7 +25,7 @@ function Service() {
   }
 
   return (
-    <ServiceContext.Provider value={{ logo, showServiceModal, hideServiceModal }}>
+    <ServiceContext.Provider value={{ serviceCardLogo, showServiceModal, hideServiceModal }}>
       <div id="service">
         <div className="pt-20 pb-10 flex flex-col gap-y-20 mx-auto container">
           <div className="lg:mx-10 flex flex-col-reverse lg:flex-row justify-between gap-y-5 lg:gap-y-4">
@@ -39,7 +40,7 @@ function Service() {
               </div>
             </div>
             <div className="w-full flex justify-center lg:justify-end">
-              <img className="w-[28rem]" src="https://www.theblueflamelabs.com/mainsite/assets/img/about.png" alt="" />
+              <img className="w-[28rem]" src={serviceLogo} alt="" />
             </div>
           </div>
           <div className="flex justify-center">

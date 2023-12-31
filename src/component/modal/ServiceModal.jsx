@@ -6,7 +6,7 @@ function ServiceModal({ close, title }) {
       <div className="relative w-full h-full max-w-md md:h-auto">
         <div id="add-category-modal" className="relative bg-white rounded-lg shadow">
           <div className="px-4 flex justify-between items-center">
-            <div className="uppercase font-sans text-xl font-semibold text-[#002848]">{title}</div>
+            <div className="capitalize font-sans text-xl font-semibold text-[#002848]">{title}</div>
             <button className="px-2 py-2" >
               <i className="items-center fa-solid fa-xmark text-2xl text-slate-400 hover:text-slate-600" onClick={close} />
             </button>
