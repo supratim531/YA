@@ -40,7 +40,8 @@ function Service() {
               </div>
             </div>
             <div className="w-full flex justify-center lg:justify-end">
-              <img className="w-[28rem]" src={serviceLogo} alt="" />
+              <img className="w-[28rem]" src="https://www.theblueflamelabs.com/mainsite/assets/img/about.png" alt="" />
+              {/* <img className="w-[28rem]" src={serviceLogo} alt="" /> */}
             </div>
           </div>
           <div className="flex justify-center">

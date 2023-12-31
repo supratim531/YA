@@ -1,8 +1,30 @@
-import React from 'react';
+import React, { useState } from 'react';
 import CardSwiper from './swiper/CardSwiper';
 import Testimonial from './Testimonial';
 
+import utsav from "../assets/utsav.jpeg";
+import dipayan from "../assets/dipayan.jpg";
+import mriganka from "../assets/mriganka.jpg";
+
 function About() {
+  const [teams, setTeams] = useState([
+    {
+      name: "Dipayan Banik",
+      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quidem ratione esse cupiditate placeat repellat.",
+      image: dipayan
+    },
+    {
+      name: "Mriganka Paul",
+      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quidem ratione esse cupiditate placeat repellat.",
+      image: mriganka
+    },
+    {
+      name: "Utsav Chatterjee",
+      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quidem ratione esse cupiditate placeat repellat.",
+      image: utsav
+    }
+  ]);
+
   return (
     <div id="about" className="bg-gradient-to-t from-[#00040f] to-[#2c293d]">
       <div className="px-5 sm:px-10 py-10 flex flex-col gap-y-20 mx-auto container">
@@ -14,7 +36,7 @@ function About() {
           </div>
           <div className="h-full w-full flex justify-center">
             <div className="">
-              <CardSwiper />
+              <CardSwiper teams={teams} />
             </div>
           </div>
         </div>

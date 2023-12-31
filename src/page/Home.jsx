@@ -12,7 +12,7 @@ function Home() {
       <Navbar />
       <Hero />
       <Service />
-      <Work />
+      {/* <Work /> */}
       <About />
       <Footer />
     </>
