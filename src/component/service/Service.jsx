@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import serviceCardLogo from "../../assets/logo.png"
-import serviceLogo from "../../assets/service-logo.png"
 import Designing from './Designing';
 import Development from './Development';
 import Marketing from './Marketing';

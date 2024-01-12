@@ -1,6 +1,6 @@
 import React from 'react'
 
-function ServiceModal({ close, title }) {
+function ServiceModal({ close, title, longDescription }) {
   return (
     <div id="popup-service-modal" tabIndex={-1} className="hidden form-font fixed top-0 left-0 right-0 z-50 p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-modal h-full justify-center bg-opacity-50 items-center bg-gray-900">
       <div className="relative w-full h-full max-w-md md:h-auto">
@@ -13,7 +13,7 @@ function ServiceModal({ close, title }) {
           </div>
           <hr />
           <div className="px-4 py-2">
-            <div className="font-roboto font-semibold text-[#002848]">With the watchword of commitment, we provide services related to:</div>
+            <div className="font-roboto font-semibold text-[#002848]">{longDescription}</div>
           </div>
           <hr />
           <div className="px-4 py-2 flex justify-end space-x-2">
