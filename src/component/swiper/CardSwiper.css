@@ -3,7 +3,7 @@
   height: 260px;
 }
 
-@media (min-width: 360px) {
+@media (min-width: 420px) {
   .swiper {
     width: 280px;
     height: 360px;

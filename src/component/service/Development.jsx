@@ -6,32 +6,32 @@ function Development() {
   const [services, setServices] = useState([
     {
       title: "Custom Software Design",
-      description: "We give custom solutions for the requirement of your software as per your business",
-      longDescription: "",
+      description: "doloribus neque excepturi perferendis aspernatur, commodi inventore",
+      longDescription: "This is long description",
       logo: csd
     },
     {
       title: "Custom App Development",
       description: "doloribus neque excepturi perferendis aspernatur, commodi inventore",
-      longDescription: "",
+      longDescription: "This is long description",
       logo: csd
     },
     {
       title: "Custom Web Development",
       description: "doloribus neque excepturi perferendis aspernatur, commodi inventore",
-      longDescription: "",
+      longDescription: "This is long description",
       logo: csd
     },
     {
       title: "API Development",
       description: "doloribus neque excepturi perferendis aspernatur, commodi inventore",
-      longDescription: "",
+      longDescription: "This is long description",
       logo: csd
     },
     {
       title: "Enterprise Software Development",
       description: "doloribus neque excepturi perferendis aspernatur, commodi inventore",
-      longDescription: "",
+      longDescription: "This is long description",
       logo: csd
     },
   ]);
