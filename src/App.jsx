@@ -8,14 +8,13 @@ function App() {
     if (navigation) {
       const navigationHeight = navigation.offsetHeight;
       document.documentElement.style.setProperty(
-        "--scroll-padding", navigationHeight + "px"
+        "--scroll-padding",
+        navigationHeight + "px"
       );
     }
   });
 
-  return (
-    <Home />
-  );
+  return <Home />;
 }
 
 export default App;

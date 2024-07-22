@@ -1,9 +1,9 @@
-import React from 'react';
-import About from '../component/about/About';
-import Footer from '../component/Footer';
-import Hero from '../component/Hero';
-import Navbar from '../component/Navbar';
-import Service from '../component/service/Service';
+import React from "react";
+import About from "../component/about/About";
+import Footer from "../component/Footer";
+import Hero from "../component/Hero";
+import Navbar from "../component/Navbar";
+import Service from "../component/service/Service";
 // import Work from '../component/Work';
 
 function Home() {
